@@ -1,19 +1,19 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: ""    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
-venue: "R for Reproducible Scientific Analysis"
+venue: "Data Wrangling and Processing for Genomics"
 address: "Regeneron, Tarrytown, NY"
 country: "us"
 language: "en"
 latlng: #"41.732190,-72.793431"
-humandate: "June 13-14, 2019"
-humantime: "9:00 am - 4:30 pm"
+humandate: "June 17, 2025"
+humantime: "8:30 am - 4:30 pm"
 startdate: 2019-06-13
-enddate: 2019-06-14
-instructor: ["Ravi Pandey", "Samir Amin"]
-helper: ["Regis James","Calvin Chen","Tiffany Tu","Sean O'Keeffe"]
-email: ["sheldon.mckay@regeneron.com"]
-collaborative_notes: https://pad.carpentries.org/2019-06-13-r-regn
+enddate: 2019-06-13
+instructor: ["Ayush Shekhar Saxena", "Zebulun Arendsee"]
+helper: ["Mohammed Hussain","Aarushi Gajri"]
+email: ["ayushshekhar.saxena@regeneron.com"]
+collaborative_notes: https://pad.carpentries.org/2025-06-17-genomics-regn
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
