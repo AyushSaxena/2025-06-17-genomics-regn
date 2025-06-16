@@ -211,46 +211,20 @@ The lessons used in the workshop were developed by <a href="https://datacarpentr
 
 <h2 id="syllabus">Syllabus</h2>
 
-
-<div class="row">
-  <div class="col-md-6">
-    <h3 id="syllabus-shell">The Unix Shell</h3>
-    <ul>
-      <li>Files and directories</li>
-      <li>History and tab completion</li>
-      <li>Pipes and redirection</li>
-      <li>Looping over files</li>
-      <li>Creating and running shell scripts</li>
-      <li>Finding things</li>
-      <li><a href="{{site.swc_pages}}/shell-novice/reference">Reference...</a></li>
-    </ul>
-  </div>
-  <div class="col-md-6">
-    <h3 id="syllabus-r">Programming in R</h3>
-    <ul>
-      <li>Working with vectors and data frames</li>
-      <li>Reading, transfroming and plotting data</li>
-      <li>Creating and using functions</li>
-      <li>Loops and conditionals</li>
-      <li><a href="{{site.swc_pages}}/r-novice-gapminder/reference">Reference...</a></li>
-    </ul>
-  </div>
-</div>
-
 <hr/>
 
 <h2 id="setup">Setup</h2>
 <div id="R"> 
   <ul>
     <li>
-      We will teach all sections of this workshop using an <a href="https://bioinfo-dev-trial.regeneron.regn.com">R-studio Server</a>,
+      We will teach all sections of this workshop using an <a href="https://jupyterhub.regeneron.regn.com/">Regeneron Jupyterhub</a>,
       a programming environment that runs in a web browser. 
     </li>
     <li>
       The current versions of the Chrome, Safari and Firefox browsers are all supported
     </li>
     <li>
-      To access R-studio, point your browser to <a href="https://bioinfo-dev-trial.regeneron.regn.com">bioinfo-dev-trial.regeneron.regn.com</a> and log in with your Regeneron credentials
+      To access R-studio, point your browser to <a href="https://jupyterhub.regeneron.regn.com/">Jupyterhub</a> and log in with your Regeneron credentials
     </li>
   </ul>
 </div>
