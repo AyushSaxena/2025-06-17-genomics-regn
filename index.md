@@ -1,6 +1,6 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
-carpentry: ""    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
+carpentry: "dc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
 venue: "Data Wrangling and Processing for Genomics"
 address: "Regeneron, Tarrytown, NY"
 country: "us"
@@ -112,7 +112,7 @@ collaborative_notes: https://pad.carpentries.org/2025-06-17-genomics-regn
   Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requirements:</strong> Participants must bring a laptop with Chrome or Firefox installed. Tablets, Chromebook, etc. are not supported.
+  <strong>Requirements:</strong> Participants must bring a Regeneron laptop
 </p>
 
 {% comment %}
@@ -174,7 +174,7 @@ Please complete <a href="https://www.surveymonkey.com/r/rpythonpreworkshop1">thi
 At the end of the workshop, please fill out the <a href="https://www.surveymonkey.com/r/rpythonpostworkshop">post-workshop survey</a> to let us know how the training was for you and to help us improve future workshops.
 
 <h2>Lessons</h2>
-The lessons used in the workshop were developed by <a href="http://software-carpentry.org/">Software Carpentry<a/> under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons</a> license.
+The lessons used in the workshop were developed by <a href="https://datacarpentry.org/">Data Carpentry<a/> under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons</a> license.
 
 <h2 id="schedule">Schedule</h2>
 <h3>Room 34-252</h3>
@@ -184,40 +184,9 @@ The lessons used in the workshop were developed by <a href="http://software-carp
     <h3>Thursday, June 13</h3>
     <table class="table table-striped">
       <tr> <th>Time</th><th>Subject</th><th>Instructor</th></tr>
-      <tr> <td>9:00</td> <td>Workshop overview</td><td></td></tr>
-      <tr> <td>9:10</td> <td><a href="{{site.swc_pages}}/shell-novice/01-intro/">Introduction to the unix shell</a></td><td><a href="https://twitter.com/sbamin">Samir Amin</a></td></tr>
-      <tr> <td>9:15</td> <td><a href="{{site.swc_pages}}/shell-novice/02-filedir">Navigating files and directories</a></td><td><a href="https://twitter.com/sbamin">Samir Amin</a></td></tr>
-      <tr> <td>9:50</td> <td><a href="{{site.swc_pages}}/shell-novice/03-create">Working with files and directories</a></td><td><a href="https://twitter.com/sbamin">Samir Amin</a></td></tr>
-      <tr> <td>10:30</td> <td>Coffee</td> <td></td></tr>
-      <tr> <td>10:45</td> <td><a href="{{site.swc_pages}}/shell-novice/04-pipefilter">Pipes and filters</a></td><td><a href="https://twitter.com/sbamin">Samir Amin</a></td></tr>
-      <tr> <td>11:05</td> <td><a href="{{site.swc_pages}}/shell-novice/05-loop">Loops</a></td><td><a href="https://twitter.com/sbamin">Samir Amin</a></td></tr>
-      <tr> <td>12:00</td> <td>Lunch</td><td></td></tr>
-      <tr> <td>13:00</td>  <td><a href="{{site.swc_pages}}/r-novice-gapminder/01-rstudio-intro">Introduction to R and RStudio</a></td><td>Ravi Pandey</td></tr>
-      <tr> <td>13:55</td>  <td><a href="{{site.swc_pages}}/r-novice-gapminder/02-project-intro">Project Management With RStudio</a></td><td>Ravi Pandey</td></tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> <td></td></tr>
-      <tr> <td>14:45</td>  <td><a href="{{site.swc_pages}}/r-novice-gapminder/03-seeking-help">Seeking Help</a></td><td>Ravi Pandey</td></tr>
-      <tr> <td>15:00</td>  <td><a href="{{site.swc_pages}}/r-novice-gapminder/04-data-structures-part1">Data Structures</a></td><td>Ravi Pandey</td></tr>
-      <tr> <td>15:55</td>  <td><a href="{{site.swc_pages}}/r-novice-gapminder/05-data-structures-part2">Exploring Data Frames</a></td><td><td>Ravi Pandey</td></tr>
-      <tr> <td>16:30</td>  <td>Wrap-up</td> <td></td></tr>
-    </table>
-  </div>
-  <div class="col-md-6">
-    <h3>Friday, June 14</h3>
-    <table class="table table-striped">
-      <tr> <th>Time</th><th>Subject</th><th>Instructor</th></tr>
-      <tr> <td>9:00</td>  <td><a href="{{site.swc_pages}}/r-novice-gapminder/06-data-subsetting">Subsetting Data</a></td><td>Ravi Pandey</td></tr>
-      <tr> <td>9:45</td>  <td><a href="{{site.swc_pages}}/r-novice-gapminder/07-control-flow">Control Flow</a></td><td>Ravi Pandey</td></tr>
-      <tr> <td>10:30</td> <td>Coffee</td> <td></td></tr>
-      <tr> <td>10:45</td>  <td><a href="{{site.swc_pages}}/r-novice-gapminder/08-plot-ggplot2">Creating Publication-Quality Graphics</a></td><td>Ravi Pandey</td></tr>
-      <tr> <td>12:00</td> <td>Lunch</td><td></td></tr>
-      <tr> <td>13:00</td>  <td><a href="{{site.swc_pages}}/r-novice-gapminder/09-vectorization">Vectorization</a></td><td><a href="https://twitter.com/sbamin">Samir Amin</a></td></tr>
-      <tr> <td>13:20</td>  <td><a href="{{site.swc_pages}}/r-novice-gapminder/10-functions">Functions</a></td><td><a href="https://twitter.com/sbamin">Samir Amin</a></td></tr>
-      <tr> <td>14:15</td>  <td><a href="{{site.swc_pages}}/r-novice-gapminder/11-writing-data">Writing Data</a></td><td><a href="https://twitter.com/sbamin">Samir Amin</a></td></tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> <td></td></tr>
-      <tr> <td>14:45</td>  <td><a href="{{site.swc_pages}}/r-novice-gapminder/13-dplyr">Dataframe Manipulation with dplyr</a></td><td><a href="https://twitter.com/sbamin">Samir Amin</a></td></tr>
-      <tr> <td>15:30</td>  <td><a href="{{site.swc_pages}}/r-novice-gapminder/13-dplyr">Dataframe Manipulation with tidyr</a></td><td><a href="https://twitter.com/sbamin">Samir Amin</a></td></tr>      
-      <tr> <td>16:15</td>  <td><a href="{{site.swc_pages}}/r-novice-gapminder/16-wrap-up">Writing Good Software</a></td><td><a href="https://twitter.com/sbamin">Samir Amin</a></td></tr>
-      <tr> <td>16:30</td>  <td>End</td><td></td> </tr>
+      <tr> <td>8:30</td> <td>Setup and Overview</td><td></td></tr>
+      <tr> <td>9:30 - 12:00</td> <td><a href="https://datacarpentry.github.io/shell-genomics/">Introduction to the unix shell for Genomics</a></td><td><a >Zebulun Arendsee</a></td></tr>
+      <tr> <td>9:15</td> <td><a href="https://datacarpentry.github.io/wrangling-genomics/">Introduction to genomics</a></td><td><a>Ayush Saxena</a></td></tr>
     </table>
   </div>
 </div>
