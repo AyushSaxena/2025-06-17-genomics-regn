@@ -167,11 +167,29 @@ collaborative_notes: https://pad.carpentries.org/2025-06-17-genomics-regn
 <hr/>
 
 
-<h2>Pre-workshop survey</h2>
-Please complete <a href="https://www.surveymonkey.com/r/rpythonpreworkshop1">this survey</a> before attending the workshop
+{% comment %}
+SURVEYS - DO NOT EDIT SURVEY LINKS
+{% endcomment %}
+<h2 id="surveys">Surveys</h2>
+<p>Please be sure to complete these surveys before and after the workshop.</p>
+{% if site.carpentry == "incubator" %}
+<p><a href="{{ site.incubator_pre_survey }}">Pre-workshop Survey</a></p>
+<p><a href="{{ site.incubator_post_survey }}">Post-workshop Survey</a></p>
+{% elsif site.incubator_pre_survey or site.incubator_post_survey %}
+<div class="alert alert-danger">
+WARNING: you have defined custom pre- and/or post-survey links for
+a workshop not configured for The Carpentries Incubator
+(the value of `curriculum` is not set to `incubator` in `_config.yml`).
+Please comment out the `incubator_pre_survey` and `incubator_post_survey` fields
+in `_config.yml` or, if this workshop is teaching a lesson in the Incubator,
+change the value of `carpentry` to `incubator`.
+</div>
+{% else %}
+<p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
+<p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
+{% endif %}
 
-<h2>Post-workshop survey</h2>
-At the end of the workshop, please fill out the <a href="https://www.surveymonkey.com/r/rpythonpostworkshop">post-workshop survey</a> to let us know how the training was for you and to help us improve future workshops.
+<hr/>
 
 <h2>Lessons</h2>
 The lessons used in the workshop were developed by <a href="https://datacarpentry.org/">Data Carpentry<a/> under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons</a> license.
