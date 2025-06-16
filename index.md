@@ -184,9 +184,9 @@ The lessons used in the workshop were developed by <a href="https://datacarpentr
     <h3>Thursday, June 13</h3>
     <table class="table table-striped">
       <tr> <th>Time</th><th>Subject</th><th>Instructor</th></tr>
-      <tr> <td>8:30</td> <td>Setup and Overview</td><td></td></tr>
-      <tr> <td>9:30 - 12:00</td> <td><a href="https://datacarpentry.github.io/shell-genomics/">Introduction to the unix shell for Genomics</a></td><td><a >Zebulun Arendsee</a></td></tr>
-      <tr> <td>9:15</td> <td><a href="https://datacarpentry.github.io/wrangling-genomics/">Introduction to genomics</a></td><td><a>Ayush Saxena</a></td></tr>
+      <tr> <td>8:30</td> <td>Setup and Overview</td><td><span></span></td></tr>
+      <tr> <td>9:30 - 12:00</td> <td><a href="https://datacarpentry.github.io/shell-genomics/">Introduction to the unix shell for Genomics</a></td><td><span>Zebulun Arendsee</span></td></tr>
+      <tr> <td>9:15</td> <td><a href="https://datacarpentry.github.io/wrangling-genomics/">Introduction to genomics</a></td><td><span>Ayush Saxena</span></td></tr>
     </table>
   </div>
 </div>
